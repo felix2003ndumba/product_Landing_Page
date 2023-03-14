@@ -1,0 +1,106 @@
+* body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-img{
+    height: 30px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+#nav-bar .nav-link{
+    display: inline-block;
+    padding: 40px 20px;
+    font-size: 20px;
+   
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    }
+#email{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#features{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.box1{
+    flex-basis: 10%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-top: 20px;
+    }
+.box2{
+    flex-basis: 90%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.img{
+    width: 50px;
+
+}
+#how-it-works{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.box3{
+    flex-basis: 10%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-top: 20px;
+    }
+.box4{
+    flex-basis: 90%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}   
+#pricing{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.box5{
+    flex-basis: 10%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-top: 20px;
+    }
+.box6{
+    flex-basis: 90%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+h2{
+    margin-bottom: -12px;
+}
+p{
+    font-size: large;
+}
+#box{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+#box .box-item{
+    border: 1px solid red;
+    display: inline-block;
+    width: auto;
+}
