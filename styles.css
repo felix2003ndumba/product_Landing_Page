@@ -96,11 +96,39 @@ p{
 }
 #box{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    justify-content: center;
     
 }
 #box .box-item{
-    border: 1px solid red;
-    display: inline-block;
-    width: auto;
+    padding: 20px;
+    font-size: 20px;
+    height: 250px;
+    width: 220px;
+    text-align: center;
+    }
+.box-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
 }
+footer{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+
+    
+    
+}
+footer ul li{
+    display: inline-block;
+    background-color: #ddd;
+    flex-basis: 100%;
+}
+
