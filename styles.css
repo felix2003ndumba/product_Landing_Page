@@ -94,6 +94,11 @@ h2{
 p{
     font-size: large;
 }
+#video-icon{
+    text-align: center;
+    margin: auto 0px;
+    margin-bottom: 40px;
+}
 #box{
     display: grid;
     grid-template-columns: auto auto auto;
